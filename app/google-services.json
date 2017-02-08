@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "923823853417",
+    "firebase_url": "https://picsofireland-f4428.firebaseio.com",
+    "project_id": "picsofireland-f4428",
+    "storage_bucket": "picsofireland-f4428.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923823853417:android:9338a07d9adbd3d1",
+        "android_client_info": {
+          "package_name": "com.gerhorgan.picsofireland"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923823853417-784quq3m3pu1rj6mot03qb2dfv9nj9vb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gerhorgan.picsofireland",
+            "certificate_hash": "C203B2741AB113D38F66A6DBFF45C3548D3464B8"
+          }
+        },
+        {
+          "client_id": "923823853417-c9tvkdi4rpvhl850hn1o9vrut4hjncfq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZX4m8Dy6vTkmzVzPSJUaE4nxcwGIkoD8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923823853417-c9tvkdi4rpvhl850hn1o9vrut4hjncfq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
