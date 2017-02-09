@@ -65,6 +65,7 @@ public class WelcomeActivity extends AppCompatActivity implements View.OnClickLi
                     break;
             case R.id.sign_in_button:
                 Intent signInIntent= new Intent(this, ProfileActivity.class);
+                startActivity(signInIntent);
 
 
 

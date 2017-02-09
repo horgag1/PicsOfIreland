@@ -2,6 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gerhorgan.picsofireland">
 
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- To enable app invites -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- To geotag new posts with current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- To get pictures from camera for new posts -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -26,10 +34,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-
-        <activity android:name=".BaseActivity"></activity>
+        <activity android:name=".BaseActivity" />
+        <activity android:name=".ui.UserDetailActivity" />
+        <activity android:name=".ui.CommentsActivity"></activity>
     </application>
 
 </manifest>
